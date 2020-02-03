@@ -1,0 +1,403 @@
+/*Common Elements*/
+body{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+}
+
+.contentwrapper
+{
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    padding: 0 3em 0 3em;
+}
+
+h2
+{
+    margin: 0;
+    padding: 0.25em 0 0 0;
+    font-size: 20px;
+    color: black; 
+}
+
+h3
+{
+    margin: 0;
+    padding: 0.5em 0 0 0;
+    font-size: 16px;
+    color: black; 
+}
+/*
+a, a:visited{
+    color: orange;
+}
+
+a:hover{
+    color:red;
+}*/ 
+
+
+/*Header*/
+
+header {
+    padding: 0em 0 0 .5em;
+    margin: 0 0 4em 0;
+    background-color: black;
+    height: 11em; 
+}
+
+
+header #Logo{
+
+    max-width: 9%;
+    height: Auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: fixed;
+    position: relative;
+    border: 1px white solid; 
+    margin-right: 25px;
+    margin-top: 1.5em; 
+    z-index: 2; 
+}
+
+/*Nav Bars*/
+
+nav{
+    color: white;
+    font-size: 1.5em;
+    padding: 1em 1em 0.5em 1em;
+    margin: 1em 0px 1em 0px; 
+    height: 4em; 
+}
+
+.socialMedia
+{
+    max-width: 8%;
+    height: Auto;
+    padding: 0em 0.5em 0em 0.5em;
+}
+
+ul{
+ margin: 0;
+ padding: 0;
+ list-style: inline;
+}
+
+li {
+    display: inline;
+    margin: 0em;
+}
+
+/*nav li a, nav li a:visited 
+{
+    text-decoration: none; 
+    color:black; 
+    padding: 0.5em 0.6em;
+}
+
+/*nav li a:hover
+{
+    color: red;
+    background-color: rgb(76, 0, 255);
+    padding: 0.75em 0.25em 0.25em 0.25em;
+
+}*/
+
+.searchBar
+{
+    float: right; 
+    margin: 0em 2em 0 0;
+    padding: 0.35em 0.35em 0.35em 0.35em;
+    background-color: rgb(218, 218, 218);
+    height: 1.5em;
+    width: 30%;
+    border: 3px solid red;
+    position: relative; 
+    z-index: 1; 
+}
+
+nav #searchBox
+{   
+vertical-align: center;
+margin-left: 1.5em;
+margin-bottom: 1.5em;
+}
+
+.siteNav
+{
+    display: inline-flex; 
+    position: absolute;
+    text-align: left;
+    padding-top: 0em;
+    width: 80%;
+    margin-top: 6em;
+    margin-left: 8em;
+    font-size: 20px;
+    border: 1px solid white;
+    height: 25px;
+    z-index: 2;
+}
+
+.siteNav ul li a, li a:visited
+{
+text-decoration: none;
+color: white; 
+padding: 0.5em 0.6em;
+}
+
+.siteNav li a:hover
+{
+color: grey;
+text-decoration: underline;
+}
+
+
+/*Title Section*/
+
+#introPanel
+{
+    background-image: url(imgKyle/header_picNZ.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: left center;
+    Height: 30em;
+    position: relative;
+    margin: -75px 0 0 0;
+    background-color: lightgray;
+
+}
+
+#introPanelTextOne
+{
+text-align: center;
+padding: 1.5em 0em 0 0em;
+margin-top: 1.5em;
+font-size: 42px;
+}
+
+#introPanelTextTwo
+{
+    text-align: center;
+    padding: 0em 0em 0 0em;
+    margin-top: -0.5em;
+}
+
+/*.threeButtons
+{
+list-style: inline;
+color: red; 
+border: 1px solid black;
+}*/
+
+.threeButtons
+{
+  padding: 8px 8px 8px 8px; 
+  width: 100%;
+  margin-top: 70px;
+  position: relative;
+}
+
+.divy
+{
+    text-align: center;
+    position: relative;
+    width: 100%
+}
+
+.threeButtons ul li
+{
+    margin-top: 0px;
+    margin-right: 20px;
+}
+
+.threeButtons ul li a, li a:visited
+{
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 2em 2em 2em 2em;
+    font-size: 18px;
+}
+
+.threeButtons li a:hover, a:active
+{
+background-color: black; 
+}
+
+.LinkButtonsTop
+{
+    padding: 4px 4px 4px 4px; 
+    margin-right: 0px; 
+}
+
+
+/*Great Walk Section*/
+
+#walksMain
+{
+    background-color:white;
+    margin: 0 0em 0 0em;
+    padding: 4em 0 2em 2em; 
+    display: inline-block;
+    border-radius: 2 em;
+    text-align: center;
+}
+
+.greatWalkTypes 
+{
+    width: 20em;
+    height: 14em;
+    border: 0px solid transparent;
+    border-radius: 2em; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.GreatWalkGrid
+{
+    float: left;
+    position: relative;
+    width: 340px;
+    height: 325px;
+    margin: 0 2em 2em 2em;
+    padding: 1em;
+    border: 0px solid black;
+    border-radius: 1em; 
+    background-color: rgb(160, 158, 158);
+    box-shadow: 1px 1px 5px #777;
+}
+
+.moreInfoButton a, a:visited
+{
+    background-color:black;
+    color: white;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    margin-top: 10px;
+}
+
+.moreInfoButton a:hover, a:active
+{
+background-color: #f44336; 
+}
+
+/*Other Resources*/
+
+#moreResources
+{
+text-align: center;
+padding: 0.25em 0em 0em 0em;
+background-image: url(imgKyle/new-zealandMoreResources.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+background-position: fixed;
+Height: 25em;
+position: relative;
+margin: 0 0 0 0;
+background-color: lightgray;
+}
+
+.moreResourcesButtons
+{
+  padding: 0px; 
+  width: 100%;
+  margin-top: 75px;
+  margin-right: auto;
+  margin-left: auto; 
+  position: relative;
+}
+
+.divyTwo
+{
+    text-align: center;
+    padding-top: 5px; 
+    padding-right: 5px; 
+    padding-bottom: 5px; 
+    padding-left: 5px;
+    width: 100%; 
+    position: relative; 
+
+}
+
+.moreResourcesButtons ul li
+{
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.moreResourcesButtons ul li a, li a:visited
+{
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 2em 2em 2em 2em;
+    font-size: 20px;
+}
+
+.moreResourcesButtons li a:hover, a:active
+{
+background-color: black; 
+}
+
+.LinkButtonsBottom
+{
+    padding: 4px 4px 4px 4px; 
+    margin-right: 0px; 
+}
+
+#headerFour
+{
+    font-size: 36px;
+    position: relative; 
+    Width: 100%;
+}
+
+
+/*footer*/
+
+.footerClass 
+{
+    background-color: black;
+    height: 8px;
+    color: #fff;
+    text-align: center;
+    padding: 1.5em 2.0em;
+}
+
+footer ul li
+{
+    display: inline-block;
+    padding: 0 1em 0 0;
+    margin: 0;
+}
+
+footer ul li::before
+{
+    content: "| ";
+    padding-right: 0.5em
+}
+
+footer a, footer a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
